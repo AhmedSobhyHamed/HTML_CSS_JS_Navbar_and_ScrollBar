@@ -1,0 +1,31 @@
+/*Any Mobile Device*/
+@media (max-width:576px) {
+    :root {
+        font-size: 8px;
+    }
+    
+    p {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        padding: 2rem;
+    }
+
+    .title {
+        font-weight: 400;
+        font-size: 10rem;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    #projects .title {
+        text-align: center;
+    }
+}
+
+@media (min-width:577px) and (max-width: 992px) {
+    .container {
+        width: 95%;
+    }
+}
